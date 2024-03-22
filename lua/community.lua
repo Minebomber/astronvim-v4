@@ -6,9 +6,9 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.completion.codeium-vim" },
-  { import = "astrocommunity.pack.cpp" },
-  { import = "astrocommunity.pack.go" },
-  { import = "astrocommunity.pack.html-css" },
+  -- { import = "astrocommunity.pack.cpp" },
+  -- { import = "astrocommunity.pack.go" },
+  -- { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.prisma" },
   { import = "astrocommunity.pack.python" },
