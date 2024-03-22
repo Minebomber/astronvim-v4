@@ -7,9 +7,9 @@ return {
   -- TODO: Remove branch v4 on release
   { "AstroNvim/astrocommunity", branch = "v4" },
   { import = "astrocommunity.completion.codeium-vim" },
-  { import = "astrocommunity.pack.cpp" },
-  { import = "astrocommunity.pack.go" },
-  { import = "astrocommunity.pack.html-css" },
+  -- { import = "astrocommunity.pack.cpp" },
+  -- { import = "astrocommunity.pack.go" },
+  -- { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.prisma" },
   { import = "astrocommunity.pack.python" },
