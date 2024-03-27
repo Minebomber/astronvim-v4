@@ -16,9 +16,9 @@ return {
       null_ls.builtins.formatting.prettierd.with {
         extra_filetypes = {
           "ruby",
-          "eruby",
         },
       },
+      null_ls.builtins.formatting.erb_format,
     }
     return config -- return final config table
   end,
