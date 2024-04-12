@@ -9,6 +9,7 @@ return {
   -- { import = "astrocommunity.pack.cpp" },
   -- { import = "astrocommunity.pack.go" },
   -- { import = "astrocommunity.pack.html-css" },
+  -- { import = "astrocommunity.pack.kotlin" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.prisma" },
   { import = "astrocommunity.pack.python" },
