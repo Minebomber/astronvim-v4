@@ -6,10 +6,7 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.completion.codeium-vim" },
-  -- { import = "astrocommunity.pack.cpp" },
-  -- { import = "astrocommunity.pack.go" },
-  -- { import = "astrocommunity.pack.html-css" },
-  -- { import = "astrocommunity.pack.kotlin" },
+  { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.prisma" },
   { import = "astrocommunity.pack.python" },
@@ -17,5 +14,4 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.typescript" },
-  -- import/override with your plugins folder
 }
