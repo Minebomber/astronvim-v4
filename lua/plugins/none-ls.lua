@@ -20,6 +20,7 @@ return {
         },
       },
       null_ls.builtins.formatting.erb_format,
+      null_ls.builtins.formatting.forge_fmt,
     }
     return config -- return final config table
   end,
