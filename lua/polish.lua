@@ -56,3 +56,8 @@ vim.api.nvim_create_autocmd({ "BufReadPre" }, {
   command = [[ let g:asmsyntax = "fasm" ]],
   group = ftSetupGrp,
 })
+vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
+  pattern = "*.json.props",
+  command = [[ set ft=ruby ]],
+  group = ftSetupGrp,
+})
