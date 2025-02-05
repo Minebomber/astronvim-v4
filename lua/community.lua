@@ -5,11 +5,11 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  -- { import = "astrocommunity.completion.codeium-vim" },
   { import = "astrocommunity.completion.codeium-nvim" },
   { import = "astrocommunity.docker.lazydocker" },
   { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
   { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.prisma" },
   { import = "astrocommunity.pack.python" },
@@ -17,4 +17,5 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.motion.nvim-surround" },
 }
