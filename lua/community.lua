@@ -7,7 +7,7 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.completion.codeium-nvim" },
   { import = "astrocommunity.docker.lazydocker" },
-  { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
+  -- { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.lua" },

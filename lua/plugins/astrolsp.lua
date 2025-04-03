@@ -32,6 +32,7 @@ return {
         "lua_ls",
         "standardrb",
         "emmet_ls",
+        "vtsls",
       },
       timeout_ms = 1000, -- default format timeout
       -- filter = function(client) -- fully override the default formatting function
